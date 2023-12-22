@@ -10,6 +10,7 @@ import Register from "../Home/Shared/Register/Register";
 import PrivateRoute from './PrivateRoute';
 import Dashboard from "../Layout/Dashboard";
 import CreateTask from "../Dashboard/CreateTask/CreateTask";
+import AllTasks from "../Home/AllTasks/AllTasks";
 
   export const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ import CreateTask from "../Dashboard/CreateTask/CreateTask";
     {
       path: 'addTask',
       element: <PrivateRoute><CreateTask></CreateTask></PrivateRoute>
+    },
+    {
+      path: 'manageTask',
+      element: <PrivateRoute><AllTasks></AllTasks></PrivateRoute>
     },
    
 

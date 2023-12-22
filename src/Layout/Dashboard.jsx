@@ -48,7 +48,7 @@ const Dashboard = () => {
                             <div className="divider"></div>
                             <li>
 
-                                <NavLink to="/dashboard/MyPet" className="text-xl">Manage Task <FaCartPlus /></NavLink>
+                                <NavLink to="/dashboard/manageTask" className="text-xl">Manage Task <FaCartPlus /></NavLink>
                             </li>
                             <div className="divider"></div>
 
